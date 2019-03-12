@@ -63,13 +63,7 @@ img.logo {
     display: flex;
     justify-content: center;
 }
-/*
-main {
-  flex-grow: 1;
-	or
-	min-height: 500px;
-}
-*/
+
 footer {
 	text-align: center;
 	padding: 1rem 0 0 0;
@@ -79,6 +73,18 @@ footer img {
 	max-width: 1.8rem;
 }
 
+aside {
+	 background: #ddddddb5;
+	text-align: center;
+	padding: .5rem 0 .1rem 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.gallery {
+    margin: 1.5rem;
+}
 /*========================================
 *
 *           Home Page (Index)
@@ -132,29 +138,30 @@ footer img {
 *
 *
 *=========================================*/
-aside {
-	 background: #ddddddb5;
-	text-align: center;
-	padding: .5rem 0 .1rem 0;
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
-}
 
 .illustrator {
-	text-align: center;
-	margin: .5% 0 4rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .illustrator img {
 	width: 100%;
 	max-width: 300px;
 }
-
-.gallery {
-    margin: 1.5rem;
+/*========================================
+*
+*           InDesign
+*
+*
+*=========================================*/
+.indesign {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
-
 /*========================================
 *
 *           Hamburger Menu
@@ -435,7 +442,11 @@ html.lb-disable-scrolling {
 }
 
 .about-me {
-    width: 100%;
+  width: 100%;
+}
+
+.indesign img {
+	width: 100%;
 }
 }
 /*========================================
@@ -454,6 +465,9 @@ html.lb-disable-scrolling {
 		padding: 1rem;
 	}
 
+	.indesign img {
+    width: 20%;
+}
 }
 /*========================================
 *
