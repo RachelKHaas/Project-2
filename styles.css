@@ -24,12 +24,19 @@ p {
 	font-family: 'Crimson Text', serif;
   margin: 1rem 0;
 }
-
+/*
 body {
 	display: flex;
 	flex-flow: column;
 	overflow-x: hidden;
 	min-height: 100vh;
+}
+*/
+
+header {
+    display: flex;
+    flex-flow: column;
+	  align-items: center;
 }
 
 header nav a {
@@ -54,8 +61,10 @@ header nav a:hover {
 img.logo {
 	padding: 4.5rem 0 1rem 0;
 	max-width: 433px;
+	/*
 	display: block;
 	margin: auto;
+	*/
 	width: 100%;
 }
 
@@ -85,6 +94,7 @@ aside {
 .gallery {
     margin: 1.5rem;
 }
+
 /*========================================
 *
 *           Home Page (Index)
@@ -156,12 +166,14 @@ aside {
 *
 *
 *=========================================*/
+
 .indesign {
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
+
 /*========================================
 *
 *           Hamburger Menu
