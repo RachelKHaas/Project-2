@@ -77,6 +77,18 @@ figcaption {
     padding: 0 0 1rem 0;
 }
 
+.bottom-nav {
+	text-align: center;
+}
+
+.bottom-nav a, p.bottom-nav {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1rem;
+	color: #2c3c4a;
+}
+
+
 footer {
 	text-align: center;
 	padding: 1rem 0 0.5rem 0;
@@ -96,7 +108,7 @@ aside {
 }
 
 .gallery {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 /*========================================
@@ -108,6 +120,10 @@ aside {
 .sections {
 	text-align: center;
 	margin: 0 2rem;
+}
+
+.icon:hover {
+	opacity: .8;
 }
 
 .icon {
@@ -158,10 +174,6 @@ aside {
 	justify-content: center;
 	flex-direction: column;
 }
-
-.photoshop-gallery {
-	flex-direction: row;
-}
 /*========================================
 *
 *           Illustrator
@@ -191,6 +203,13 @@ aside {
 	justify-content: center;
 	flex-direction: column;
 }
+
+/*========================================
+*
+*           Resume
+*
+*
+*=========================================*/
 
 /*========================================
 *
