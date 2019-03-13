@@ -73,9 +73,13 @@ img.logo {
     justify-content: center;
 }
 
+figcaption {
+    padding: 0 0 1rem 0;
+}
+
 footer {
 	text-align: center;
-	padding: 1rem 0 0 0;
+	padding: 1rem 0 0.5rem 0;
 }
 
 footer img {
@@ -92,7 +96,7 @@ aside {
 }
 
 .gallery {
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 /*========================================
@@ -155,6 +159,9 @@ aside {
 	flex-direction: column;
 }
 
+.photoshop-gallery {
+	flex-direction: row;
+}
 /*========================================
 *
 *           Illustrator
@@ -497,7 +504,7 @@ html.lb-disable-scrolling {
 }
 
 	.photoshop img {
-	width: 40%;
+		width: 30%;
 }
 }
 /*========================================
