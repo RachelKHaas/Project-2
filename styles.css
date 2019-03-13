@@ -83,7 +83,7 @@ footer img {
 }
 
 aside {
-	 background: #ddddddb5;
+	background: #ddddddb5;
 	text-align: center;
 	padding: .5rem 0 .1rem 0;
 	width: 90%;
@@ -144,11 +144,23 @@ aside {
 
 /*========================================
 *
+*           Photoshop
+*
+*
+*=========================================*/
+.photoshop {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*========================================
+*
 *           Illustrator
 *
 *
 *=========================================*/
-
 .illustrator {
     text-align: center;
     display: flex;
@@ -166,7 +178,6 @@ aside {
 *
 *
 *=========================================*/
-
 .indesign {
 	text-align: center;
 	display: flex;
@@ -460,6 +471,10 @@ html.lb-disable-scrolling {
 .indesign img {
 	width: 100%;
 }
+
+.photoshop img {
+	width: 100%;
+}
 }
 /*========================================
 *
@@ -479,6 +494,10 @@ html.lb-disable-scrolling {
 
 	.indesign img {
     width: 20%;
+}
+
+	.photoshop img {
+	width: 40%;
 }
 }
 /*========================================
