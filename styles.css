@@ -24,14 +24,6 @@ p {
 	font-family: 'Crimson Text', serif;
   margin: 1rem 0;
 }
-/*
-body {
-	display: flex;
-	flex-flow: column;
-	overflow-x: hidden;
-	min-height: 100vh;
-}
-*/
 
 header {
     display: flex;
@@ -99,18 +91,7 @@ header {
 .nav li .dropdown-menu a {
     width: 150px;
 }
-/*
-header nav a {
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 1rem;
-	color: #2c3c4a;
-}
 
-header nav a:hover {
-	color: #8cb1a7;
-}
-*/
 .desktop-menu {
 	display: none;
 }
@@ -122,10 +103,6 @@ header nav a:hover {
 img.logo {
 	padding: 4.5rem 0 1rem 0;
 	max-width: 433px;
-	/*
-	display: block;
-	margin: auto;
-	*/
 	width: 100%;
 }
 
@@ -577,7 +554,6 @@ html.lb-disable-scrolling {
 .about-me img {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 4rem; */
     width: 80%;
 }
 
@@ -663,14 +639,6 @@ html.lb-disable-scrolling {
 		text-align: center;
 		padding: 0 0 1rem 0;
 	}
-/*
-	.desktop-menu a {
-		padding: 0 1rem;
-	}
-
-	.desktop-menu ul li {
-		display: inline;
-	}
 /*========================================
 *
 *           755 Media Query
@@ -690,3 +658,5 @@ html.lb-disable-scrolling {
 		max-width: 400px;
 		padding: 0 2rem 1rem 1rem;
 	}
+}
+}
